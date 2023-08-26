@@ -58,35 +58,35 @@ const Products = () => {
       <>
         <div className="flex flex-col md:flex-row justify-center mt-10 mb-8 pb-5  ">
           <button
-            className="border-2 px-4 py-0.5 border-black rounded  text-black capitalize ml-4 transition ease-in-out  duration-500 hover:bg-black hover:text-white mb-2"
+            className="border-2 px-4 py-0.5 border-black rounded  text-black capitalize mx-4 md:mx-2 transition ease-in-out  duration-500 hover:bg-black hover:text-white mb-2"
             onClick={() => setFilter(data)}
           >
             all
           </button>
 
           <button
-            className="border-2 px-4 py-0.5 border-black rounded  text-black capitalize ml-4 transition ease-in-out  duration-500 hover:bg-black hover:text-white mb-2"
+            className="border-2 px-4 py-0.5 border-black rounded  text-black capitalize mx-4 md:mx-2 transition ease-in-out  duration-500 hover:bg-black hover:text-white mb-2"
             onClick={() => filterProduct("men's clothing")}
           >
             men's clothing
           </button>
 
           <button
-            className="border-2 px-4 py-0.5 border-black rounded  text-black capitalize ml-4 transition ease-in-out  duration-500 hover:bg-black hover:text-white mb-2"
+            className="border-2 px-4 py-0.5 border-black rounded  text-black capitalize mx-4 md:mx-2 transition ease-in-out  duration-500 hover:bg-black hover:text-white mb-2"
             onClick={() => filterProduct("women's clothing")}
           >
             women's clothing
           </button>
 
           <button
-            className="border-2 px-4 py-0.5 border-black rounded  text-black capitalize ml-4 transition ease-in-out  duration-500 hover:bg-black hover:text-white mb-2"
+            className="border-2 px-4 py-0.5 border-black rounded  text-black capitalize mx-4 md:mx-2 transition ease-in-out  duration-500 hover:bg-black hover:text-white mb-2"
             onClick={() => filterProduct("jewelery")}
           >
             jewelery
           </button>
 
           <button
-            className="border-2 px-4 py-0.5 border-black rounded  text-black capitalize ml-4 transition ease-in-out  duration-500 hover:bg-black hover:text-white mb-2 "
+            className="border-2 px-4 py-0.5 border-black rounded  text-black capitalize mx-4 md:mx-2 transition ease-in-out  duration-500 hover:bg-black hover:text-white mb-2 "
             onClick={() => filterProduct("electronics")}
           >
             electronics
